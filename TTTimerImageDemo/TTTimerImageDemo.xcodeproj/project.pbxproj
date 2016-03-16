@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A57C50321C99690E00B21DF6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C50311C99690E00B21DF6 /* main.m */; };
+		A57C50351C99690E00B21DF6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C50341C99690E00B21DF6 /* AppDelegate.m */; };
+		A57C50381C99690E00B21DF6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C50371C99690E00B21DF6 /* ViewController.m */; };
+		A57C503B1C99690E00B21DF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C50391C99690E00B21DF6 /* Main.storyboard */; };
+		A57C503D1C99690F00B21DF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A57C503C1C99690F00B21DF6 /* Assets.xcassets */; };
+		A57C50401C99690F00B21DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C503E1C99690F00B21DF6 /* LaunchScreen.storyboard */; };
+		A57C504B1C99690F00B21DF6 /* TTTimerImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C504A1C99690F00B21DF6 /* TTTimerImageDemoTests.m */; };
+		A57C50561C99690F00B21DF6 /* TTTimerImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C50551C99690F00B21DF6 /* TTTimerImageDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A57C50471C99690F00B21DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57C50251C99690E00B21DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57C502C1C99690E00B21DF6;
+			remoteInfo = TTTimerImageDemo;
+		};
+		A57C50521C99690F00B21DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A57C50251C99690E00B21DF6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A57C502C1C99690E00B21DF6;
+			remoteInfo = TTTimerImageDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A57C502D1C99690E00B21DF6 /* TTTimerImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTTimerImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57C50311C99690E00B21DF6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A57C50331C99690E00B21DF6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A57C50341C99690E00B21DF6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A57C50361C99690E00B21DF6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A57C50371C99690E00B21DF6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A57C503A1C99690E00B21DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A57C503C1C99690F00B21DF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A57C503F1C99690F00B21DF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A57C50411C99690F00B21DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57C50461C99690F00B21DF6 /* TTTimerImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTimerImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57C504A1C99690F00B21DF6 /* TTTimerImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTimerImageDemoTests.m; sourceTree = "<group>"; };
+		A57C504C1C99690F00B21DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57C50511C99690F00B21DF6 /* TTTimerImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTimerImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A57C50551C99690F00B21DF6 /* TTTimerImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTimerImageDemoUITests.m; sourceTree = "<group>"; };
+		A57C50571C99690F00B21DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A57C502A1C99690E00B21DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C50431C99690F00B21DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C504E1C99690F00B21DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A57C50241C99690E00B21DF6 = {
+			isa = PBXGroup;
+			children = (
+				A57C502F1C99690E00B21DF6 /* TTTimerImageDemo */,
+				A57C50491C99690F00B21DF6 /* TTTimerImageDemoTests */,
+				A57C50541C99690F00B21DF6 /* TTTimerImageDemoUITests */,
+				A57C502E1C99690E00B21DF6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A57C502E1C99690E00B21DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A57C502D1C99690E00B21DF6 /* TTTimerImageDemo.app */,
+				A57C50461C99690F00B21DF6 /* TTTimerImageDemoTests.xctest */,
+				A57C50511C99690F00B21DF6 /* TTTimerImageDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A57C502F1C99690E00B21DF6 /* TTTimerImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A57C50331C99690E00B21DF6 /* AppDelegate.h */,
+				A57C50341C99690E00B21DF6 /* AppDelegate.m */,
+				A57C50361C99690E00B21DF6 /* ViewController.h */,
+				A57C50371C99690E00B21DF6 /* ViewController.m */,
+				A57C50391C99690E00B21DF6 /* Main.storyboard */,
+				A57C503C1C99690F00B21DF6 /* Assets.xcassets */,
+				A57C503E1C99690F00B21DF6 /* LaunchScreen.storyboard */,
+				A57C50411C99690F00B21DF6 /* Info.plist */,
+				A57C50301C99690E00B21DF6 /* Supporting Files */,
+			);
+			path = TTTimerImageDemo;
+			sourceTree = "<group>";
+		};
+		A57C50301C99690E00B21DF6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A57C50311C99690E00B21DF6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A57C50491C99690F00B21DF6 /* TTTimerImageDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A57C504A1C99690F00B21DF6 /* TTTimerImageDemoTests.m */,
+				A57C504C1C99690F00B21DF6 /* Info.plist */,
+			);
+			path = TTTimerImageDemoTests;
+			sourceTree = "<group>";
+		};
+		A57C50541C99690F00B21DF6 /* TTTimerImageDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A57C50551C99690F00B21DF6 /* TTTimerImageDemoUITests.m */,
+				A57C50571C99690F00B21DF6 /* Info.plist */,
+			);
+			path = TTTimerImageDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A57C502C1C99690E00B21DF6 /* TTTimerImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57C505A1C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemo" */;
+			buildPhases = (
+				A57C50291C99690E00B21DF6 /* Sources */,
+				A57C502A1C99690E00B21DF6 /* Frameworks */,
+				A57C502B1C99690E00B21DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTTimerImageDemo;
+			productName = TTTimerImageDemo;
+			productReference = A57C502D1C99690E00B21DF6 /* TTTimerImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A57C50451C99690F00B21DF6 /* TTTimerImageDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57C505D1C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemoTests" */;
+			buildPhases = (
+				A57C50421C99690F00B21DF6 /* Sources */,
+				A57C50431C99690F00B21DF6 /* Frameworks */,
+				A57C50441C99690F00B21DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57C50481C99690F00B21DF6 /* PBXTargetDependency */,
+			);
+			name = TTTimerImageDemoTests;
+			productName = TTTimerImageDemoTests;
+			productReference = A57C50461C99690F00B21DF6 /* TTTimerImageDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A57C50501C99690F00B21DF6 /* TTTimerImageDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A57C50601C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemoUITests" */;
+			buildPhases = (
+				A57C504D1C99690F00B21DF6 /* Sources */,
+				A57C504E1C99690F00B21DF6 /* Frameworks */,
+				A57C504F1C99690F00B21DF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A57C50531C99690F00B21DF6 /* PBXTargetDependency */,
+			);
+			name = TTTimerImageDemoUITests;
+			productName = TTTimerImageDemoUITests;
+			productReference = A57C50511C99690F00B21DF6 /* TTTimerImageDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A57C50251C99690E00B21DF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TT;
+				TargetAttributes = {
+					A57C502C1C99690E00B21DF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					A57C50451C99690F00B21DF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A57C502C1C99690E00B21DF6;
+					};
+					A57C50501C99690F00B21DF6 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = A57C502C1C99690E00B21DF6;
+					};
+				};
+			};
+			buildConfigurationList = A57C50281C99690E00B21DF6 /* Build configuration list for PBXProject "TTTimerImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A57C50241C99690E00B21DF6;
+			productRefGroup = A57C502E1C99690E00B21DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A57C502C1C99690E00B21DF6 /* TTTimerImageDemo */,
+				A57C50451C99690F00B21DF6 /* TTTimerImageDemoTests */,
+				A57C50501C99690F00B21DF6 /* TTTimerImageDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A57C502B1C99690E00B21DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57C50401C99690F00B21DF6 /* LaunchScreen.storyboard in Resources */,
+				A57C503D1C99690F00B21DF6 /* Assets.xcassets in Resources */,
+				A57C503B1C99690E00B21DF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C50441C99690F00B21DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C504F1C99690F00B21DF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A57C50291C99690E00B21DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57C50381C99690E00B21DF6 /* ViewController.m in Sources */,
+				A57C50351C99690E00B21DF6 /* AppDelegate.m in Sources */,
+				A57C50321C99690E00B21DF6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C50421C99690F00B21DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57C504B1C99690F00B21DF6 /* TTTimerImageDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A57C504D1C99690F00B21DF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A57C50561C99690F00B21DF6 /* TTTimerImageDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A57C50481C99690F00B21DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57C502C1C99690E00B21DF6 /* TTTimerImageDemo */;
+			targetProxy = A57C50471C99690F00B21DF6 /* PBXContainerItemProxy */;
+		};
+		A57C50531C99690F00B21DF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A57C502C1C99690E00B21DF6 /* TTTimerImageDemo */;
+			targetProxy = A57C50521C99690F00B21DF6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A57C50391C99690E00B21DF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57C503A1C99690E00B21DF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A57C503E1C99690F00B21DF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A57C503F1C99690F00B21DF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A57C50581C99690F00B21DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A57C50591C99690F00B21DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A57C505B1C99690F00B21DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTimerImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A57C505C1C99690F00B21DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTTimerImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A57C505E1C99690F00B21DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTimerImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTimerImageDemo.app/TTTimerImageDemo";
+			};
+			name = Debug;
+		};
+		A57C505F1C99690F00B21DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTTimerImageDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTTimerImageDemo.app/TTTimerImageDemo";
+			};
+			name = Release;
+		};
+		A57C50611C99690F00B21DF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTimerImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTimerImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A57C50621C99690F00B21DF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTTimerImageDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TTL.TTTimerImageDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTTimerImageDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A57C50281C99690E00B21DF6 /* Build configuration list for PBXProject "TTTimerImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57C50581C99690F00B21DF6 /* Debug */,
+				A57C50591C99690F00B21DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A57C505A1C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57C505B1C99690F00B21DF6 /* Debug */,
+				A57C505C1C99690F00B21DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57C505D1C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57C505E1C99690F00B21DF6 /* Debug */,
+				A57C505F1C99690F00B21DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A57C50601C99690F00B21DF6 /* Build configuration list for PBXNativeTarget "TTTimerImageDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A57C50611C99690F00B21DF6 /* Debug */,
+				A57C50621C99690F00B21DF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A57C50251C99690E00B21DF6 /* Project object */;
+}
