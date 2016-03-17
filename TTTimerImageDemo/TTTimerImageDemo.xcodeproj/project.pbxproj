@@ -15,6 +15,9 @@
 		A57C50401C99690F00B21DF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A57C503E1C99690F00B21DF6 /* LaunchScreen.storyboard */; };
 		A57C504B1C99690F00B21DF6 /* TTTimerImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C504A1C99690F00B21DF6 /* TTTimerImageDemoTests.m */; };
 		A57C50561C99690F00B21DF6 /* TTTimerImageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57C50551C99690F00B21DF6 /* TTTimerImageDemoUITests.m */; };
+		A57C50671C9A5BF800B21DF6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A57C50641C9A5BF800B21DF6 /* 2.png */; };
+		A57C50681C9A5BF800B21DF6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A57C50651C9A5BF800B21DF6 /* 3.png */; };
+		A57C506B1C9A5C5800B21DF6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A57C506A1C9A5C5800B21DF6 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		A57C50511C99690F00B21DF6 /* TTTimerImageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTTimerImageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57C50551C99690F00B21DF6 /* TTTimerImageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTTimerImageDemoUITests.m; sourceTree = "<group>"; };
 		A57C50571C99690F00B21DF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A57C50641C9A5BF800B21DF6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A57C50651C9A5BF800B21DF6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A57C506A1C9A5C5800B21DF6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		A57C502F1C99690E00B21DF6 /* TTTimerImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A57C50631C9A5BDF00B21DF6 /* image */,
 				A57C50331C99690E00B21DF6 /* AppDelegate.h */,
 				A57C50341C99690E00B21DF6 /* AppDelegate.m */,
 				A57C50361C99690E00B21DF6 /* ViewController.h */,
@@ -138,6 +145,16 @@
 				A57C50571C99690F00B21DF6 /* Info.plist */,
 			);
 			path = TTTimerImageDemoUITests;
+			sourceTree = "<group>";
+		};
+		A57C50631C9A5BDF00B21DF6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A57C506A1C9A5C5800B21DF6 /* 1.png */,
+				A57C50641C9A5BF800B21DF6 /* 2.png */,
+				A57C50651C9A5BF800B21DF6 /* 3.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +260,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A57C50681C9A5BF800B21DF6 /* 3.png in Resources */,
 				A57C50401C99690F00B21DF6 /* LaunchScreen.storyboard in Resources */,
 				A57C503D1C99690F00B21DF6 /* Assets.xcassets in Resources */,
+				A57C506B1C9A5C5800B21DF6 /* 1.png in Resources */,
+				A57C50671C9A5BF800B21DF6 /* 2.png in Resources */,
 				A57C503B1C99690E00B21DF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
